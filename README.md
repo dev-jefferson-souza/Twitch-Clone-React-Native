@@ -2,8 +2,11 @@
 Trabalho feito para o módulo de Desenvolvimento de Aplicativo Mobile.
 
 <h3>:construction: Projeto em construção:construction:</h3>
-<p>O projeto até o momento tem como objetivo a semelhança estética em relação ao projeto original. Futuramente serão implementados métodos visando a redução do código</p>
-<br><strong>Objetivo:</strong> Clonar duas páginas de um app, sendo a primeira a tela de login e a segunda a home.
+<p>O projeto até o momento tem como objetivo a semelhança estética em relação ao projeto original. Futuramente serão implementados métodos visando a redução do código.</p>
+
+<h3>:compass: Objetivo:</h3> 
+<p>Clonar duas páginas de um app, sendo a primeira a tela de login e a segunda a home.</p>
+
 <h3>:clipboard: Regras</h3>
 <p>Fazer a utilização das seguintes tags:</p>
 
