@@ -3,12 +3,12 @@ Trabalho feito para o módulo de Desenvolvimento de Aplicativo Mobile.
 
 <h3>:construction: Projeto em construção:construction:</h3>
 <br><strong>Objetivo:</strong> Clonar duas páginas de um app, sendo a primeira a tela de login e a segunda a home.
-<h3>:rocket: Inicialização</h3>
-<p>Para iniciar o projeto, execute os seguintes comandos no seu terminal.</p>
+<h3>:clipboard: Regras</h3>
+<p>Fazer a utilização das seguintes tags:</p>
 
-`npm install`
-<br>`npx expo install`
-<br>`npx expo start`
+`Image`
+<br>`Text`
+<br>`View`
 
 
 <h3>:rocket: Inicialização</h3>
