@@ -13,6 +13,6 @@ Trabalho feito para o módulo de Desenvolvimento de Aplicativo Mobile.
 <h3>:rocket: Inicialização</h3>
 <p>Para iniciar o projeto, execute os seguintes comandos no seu terminal.</p>
 
-<br>`npm install`
+`npm install`
 <br>`npx expo install`
 <br>`npx expo start`
