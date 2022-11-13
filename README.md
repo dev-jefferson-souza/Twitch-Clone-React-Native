@@ -3,7 +3,7 @@ Trabalho feito para o módulo de Desenvolvimento de Aplicativo Mobile.
 
 <h3>:construction: Projeto em construção:construction:</h3>
 <br><strong>Objetivo:</strong> Clonar a duas páginas de um app.
-<br><strong>Regras:</strong> Fazer uso das tags
+<h3>Regras:</h3> <p>Fazer o uso das seguintes tags:</p>
 `Image`
 <br>`Text`
 <br>`TextInput`
