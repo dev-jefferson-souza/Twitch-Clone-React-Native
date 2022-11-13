@@ -3,8 +3,8 @@ Trabalho feito para o módulo de Desenvolvimento de Aplicativo Mobile.
 
 <h3>:construction: Projeto em construção:construction:</h3>
 <br><strong>Objetivo:</strong> Clonar duas páginas de um app, sendo a primeira a tela de login e a segunda a home.
-<h3>:clipboard: Regras <p>Fazer a utilização das seguintes tags:</p></h3> <p>Fazer a utilização das seguintes tags:</p>
-Fazer a utilização das seguintes tags:
+<h3>:clipboard: Regras</h3>
+<p>Fazer a utilização das seguintes tags:</p>
 
 `<Image/>`
 <br>`<Text>`
