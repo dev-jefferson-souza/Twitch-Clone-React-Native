@@ -7,7 +7,7 @@ Trabalho feito para o módulo de Desenvolvimento de Aplicativo Mobile.
 <h3>:compass: Objetivo:</h3> 
 <p>Clonar duas páginas de um app, sendo a primeira a tela de login e a segunda a home.</p>
 
-<h3>:clipboard: Regras</h3>
+<h3>:clipboard: Regras:</h3>
 <p>Fazer a utilização das seguintes tags:</p>
 
 `<Image/>`
@@ -16,7 +16,7 @@ Trabalho feito para o módulo de Desenvolvimento de Aplicativo Mobile.
 <br>`<TextInput/>`
 
 
-<h3>:rocket: Inicialização</h3>
+<h3>:rocket: Inicialização:</h3>
 <p>Para iniciar o projeto, execute os seguintes comandos no seu terminal.</p>
 
 `npm install`
