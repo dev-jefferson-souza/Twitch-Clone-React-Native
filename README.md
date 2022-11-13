@@ -6,9 +6,10 @@ Trabalho feito para o módulo de Desenvolvimento de Aplicativo Mobile.
 <h3>:clipboard: Regras</h3>
 <p>Fazer a utilização das seguintes tags:</p>
 
-`Image`
-<br>`Text`
-<br>`View`
+`<Image/>`
+<br>`<Text>`
+<br>`<View>`
+<br>`<TextInput>`
 
 
 <h3>:rocket: Inicialização</h3>
