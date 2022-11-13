@@ -11,7 +11,7 @@ Trabalho feito para o módulo de Desenvolvimento de Aplicativo Mobile.
 <br>`View`
 
 <h3>:rocket: Inicialização</h3>
-Para iniciar o projeto, execute os respectivos comandos:
+
 <br>`npm install`
 <br>`npx expo install`
 <br>`npx expo start`
