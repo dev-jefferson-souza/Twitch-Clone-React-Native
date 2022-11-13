@@ -5,12 +5,13 @@ Trabalho feito para o módulo de Desenvolvimento de Aplicativo Mobile.
 <br><strong>Objetivo:</strong> Clonar a duas páginas de um app.
 <br><strong>Regras:</strong>
 <br>Fazer uso das tags:
-<br>`Image
-<br>`Text
-<br>`TextInput
-<br>`View
+<br>`Image`
+<br>`Text`
+<br>`TextInput`
+<br>`View`
 
-<h3>:rocket: Para iniciar o projeto, execute os respectivos comandos:</h3>
-<br>`npm install
-<br>`npx expo install
-<br>`npx expo start
+<h3>:rocket: Inicialização</h3>
+Para iniciar o projeto, execute os respectivos comandos:
+<br>`npm install`
+<br>`npx expo install`
+<br>`npx expo start`
