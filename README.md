@@ -22,3 +22,6 @@ Trabalho feito para o módulo de Desenvolvimento de Aplicativo Mobile.
 `npm install`
 <br>`npx expo install`
 <br>`npx expo start`
+<br>`npm install @react-navigation/native`
+<br>`npx expo install react-native-screens react-native-safe-area-context`
+<br>`npm install @react-navigation/native-stack`
