@@ -1,11 +1,29 @@
 import { StatusBar } from 'expo-status-bar';
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Text, TextInput, View, Image, TouchableOpacity } from 'react-native';
 import  EyeIcon  from '../../assets/eye.png'
 import { styles } from './styles';
 import { MaterialIcons } from '@expo/vector-icons';
 
-export  const Login = () => {
+export  const Login = ({navigation}) => {
+
+  const preUser = "Jefferson";
+  const prePassword = "123456"
+
+
+  // const [email, setEmail] = useState(null)
+  // const [password, setPassword] = useState(null)
+
+  const signin = () => {
+    //console.log("Entrou")
+    // console.log(email)
+    // console.log(password)
+    navigation.reset({
+      index: 0,
+      routes: [{name: "Home"}]
+    })
+
+  }
 
   return (
     <View style={styles.container}>
@@ -21,8 +39,11 @@ export  const Login = () => {
         <View style={styles.formView}>
           <Text style={styles.formSubtitle}>Username</Text>
           <TextInput 
-           selectionColor={'#9147ff'}
+            selectionColor={'#9147ff'}
             style={styles.formInput}
+
+            autoCorrect={false}
+            autoCapitalize='none'
           />
         </View>
         <View style={styles.formView}>
@@ -30,8 +51,12 @@ export  const Login = () => {
           <View style={styles.passwordInput}>
             <TextInput 
               selectionColor={'#9147ff'}
-              secureTextEntry={true}
               style={styles.formInput}
+
+              autoCorrect={false}
+              autoCapitalize='none'
+              returnKeyType='done'
+              secureTextEntry={true}
             />   
             <Image 
             source={EyeIcon}
@@ -47,7 +72,10 @@ export  const Login = () => {
           </TouchableOpacity>
           <TouchableOpacity
             activeOpacity={0.7}
-            style={styles.loginBtn}>
+            style={styles.loginBtn}
+            onPress={() => signin()}
+          >
+            
           <Text
             style={styles.loginTxt}
           >
