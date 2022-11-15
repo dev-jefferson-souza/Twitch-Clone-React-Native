@@ -1,29 +1,56 @@
 import { StatusBar } from 'expo-status-bar';
 import { useRef, useState } from "react";
-import { Text, TextInput, View, Image, TouchableOpacity } from 'react-native';
+import { Text, TextInput, View, Image, TouchableOpacity, NativeSyntheticEvent, TextInputChangeEventData  } from 'react-native';
 import  EyeIcon  from '../../assets/eye.png'
+import { Feather } from '@expo/vector-icons'; 
 import { styles } from './styles';
 import { MaterialIcons } from '@expo/vector-icons';
 
 export  const Login = ({navigation}) => {
 
-  const preUser = "Jefferson";
-  const prePassword = "123456"
+  //Usuário que será logado
+  const preUser = ({
+    name: 'FredHSQ',
+    password: 'reactnative'
+  })
 
+  const [userName, setUserName] = useState("");
+  const [userPassword, setUserPassword] = useState("");
 
-  // const [email, setEmail] = useState(null)
-  // const [password, setPassword] = useState(null)
+  //Fazendo as informações serem alteradas assim que usúario digita algo.
+  const onChangeName = (e: NativeSyntheticEvent<TextInputChangeEventData>): void => {
+    const value = e.nativeEvent.text;
+    setUserName(value);
+  }
+
+  const onChangePassword = (e: NativeSyntheticEvent<TextInputChangeEventData>): void => {
+    const value = e.nativeEvent.text;
+    setUserPassword(value);
+  }
 
   const signin = () => {
-    //console.log("Entrou")
-    // console.log(email)
-    // console.log(password)
-    navigation.reset({
-      index: 0,
-      routes: [{name: "Home"}]
-    })
-
+    if(userName === preUser.name && userPassword === preUser.password){
+      navigation.reset({
+        index: 0,
+        routes: [{name: "Home"}]
+      })
+    } else{
+      alert("Usuário ou senha inválida. Tente novamente!")
+    }
   }
+  
+  //Alterando icone e exibindo a senha
+  const [eyeIcon, setEyeIcon] = useState("eye")
+  const [showPassword, setShowPassword] = useState(true);
+  const showHide = () => {
+    setShowPassword(!showPassword)
+    if(eyeIcon === "eye"){
+      setEyeIcon("eye-off")
+    } else{
+      setEyeIcon("eye")
+    }
+  }
+
 
   return (
     <View style={styles.container}>
@@ -39,9 +66,12 @@ export  const Login = ({navigation}) => {
         <View style={styles.formView}>
           <Text style={styles.formSubtitle}>Username</Text>
           <TextInput 
+            value={userName}
+            onChange={onChangeName}
+
             selectionColor={'#9147ff'}
             style={styles.formInput}
-
+            
             autoCorrect={false}
             autoCapitalize='none'
           />
@@ -50,18 +80,28 @@ export  const Login = ({navigation}) => {
           <Text style={styles.formSubtitle}>Password</Text>
           <View style={styles.passwordInput}>
             <TextInput 
+              value={userPassword}
+              onChange={onChangePassword}
+
               selectionColor={'#9147ff'}
               style={styles.formInput}
 
               autoCorrect={false}
               autoCapitalize='none'
               returnKeyType='done'
-              secureTextEntry={true}
-            />   
-            <Image 
-            source={EyeIcon}
-            style={styles.eyeIcon}
+              secureTextEntry={showPassword}
             />
+            <TouchableOpacity
+              style={{alignItems:"center"}}
+              onPress={() => showHide()}
+            >
+            <Feather
+              style={styles.eyeIcon}
+              name= {eyeIcon}
+              size={20}
+              color="black"
+            />
+            </TouchableOpacity> 
           </View>
           <TouchableOpacity style={styles.troubleBtn}>
           <Text
@@ -84,7 +124,7 @@ export  const Login = ({navigation}) => {
           </TouchableOpacity>
         </View>
       </View>
-      <StatusBar style="auto" />
+      <StatusBar style="auto"/>
     </View>
   );
   

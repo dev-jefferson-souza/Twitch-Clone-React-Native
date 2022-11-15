@@ -48,7 +48,7 @@ export const styles = StyleSheet.create({
     eyeIcon: {
         tintColor: 'black',
         opacity: 0.7,
-        marginLeft: -44 ,
+        marginLeft: -46 ,
         height: 24,
         width: 24
     },
