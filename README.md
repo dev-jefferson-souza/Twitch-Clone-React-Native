@@ -22,4 +22,5 @@ Trabalho feito para o módulo de Desenvolvimento de Aplicativo Mobile.
 `npm install`
 <br>`npx expo install`
 <br>`npx expo start`
-
+<br>`login:`FredHSQ
+<br>`senha:`reactnative
