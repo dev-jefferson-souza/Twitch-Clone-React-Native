@@ -1,4 +1,4 @@
-import { StyleSheet, Platform } from "react-native";
+import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
     header: {
@@ -7,7 +7,6 @@ export const styles = StyleSheet.create({
         width: '100%',
         flexDirection: 'row',
         alignItems:'center',
-        alignSelf:'center',
         justifyContent:'space-between',
         paddingVertical: 4,
         paddingHorizontal: 16,

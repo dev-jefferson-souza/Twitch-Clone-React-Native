@@ -35,6 +35,8 @@ export const styles = StyleSheet.create({
         marginTop: 17,
         marginBottom: 17
     },
+
+    //Followed Categories
     scrollFollowed:{
         maxHeight: 188,
     },
@@ -63,11 +65,13 @@ export const styles = StyleSheet.create({
         opacity: 0.69,
         marginLeft: 4
     },
+
+    //Channels Recommended For You
     channelsRecCard:{
         flexDirection: 'row',
         justifyContent: 'space-between',
+        width: '100%',
         height: 120,
-        //backgroundColor:'red'
     },
     videoThumb:{
         width: 120,
@@ -87,9 +91,11 @@ export const styles = StyleSheet.create({
         marginLeft: 4
     },
     liveInfo:{
+        position:'relative',
+        left: 0,
         height: 100,
         flexDirection: 'column',
-        minWidth: '55%',
+        width: 200,
         
     },
     alignNameIcon:{

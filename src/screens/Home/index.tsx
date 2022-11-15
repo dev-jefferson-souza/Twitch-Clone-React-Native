@@ -180,19 +180,20 @@ export const Home = () => {
                     <View style={styles.alignNameIcon}>
                       <Image 
                         style={styles.smallIcon}
-                        source={{uri: 'https://avatars.githubusercontent.com/u/82114311?v=4'}}
+                        source={{uri: 'https://static-cdn.jtvnw.net/jtv_user_pictures/d96bbd7a-26e5-4c5e-b6a5-149d708a973b-profile_image-70x70.png'}}
                       />
                       <Text 
+                        numberOfLines={1}
                         style={styles.creatorName}
                       >
-                        FredHSQ
+                        PaulinhoLOKObr
                       </Text>
                     </View>
                     <Text
                       numberOfLines={1}
                       style={styles.liveName}
                     >
-                      QUE ALEGRIA MEU DEUS, HOJE EU NÃO DURMO
+                      ZERANDO SEM MORRER CONFIA - BACKSEAT/SPOILER = BAN
                     </Text>
                     <Text
                       numberOfLines={1}
@@ -207,16 +208,14 @@ export const Home = () => {
                       Português
                     </Text>
                   </View>
-                  <View>
-                    <TouchableOpacity>
+                  <TouchableOpacity>
                     <Entypo 
                       name="dots-three-vertical"
                       size={18}
                       color="black"
                       style={styles.verticalDots}
                     />
-                    </TouchableOpacity>
-                  </View>
+                  </TouchableOpacity>
                 </View>
               </TouchableOpacity>
               <TouchableOpacity activeOpacity={0.7}>
@@ -242,6 +241,7 @@ export const Home = () => {
                         source={{uri: 'https://static-cdn.jtvnw.net/jtv_user_pictures/b99a08d2-29ab-4ff1-99eb-01246d41efb7-profile_image-70x70.png'}}
                       />
                       <Text 
+                        numberOfLines={1}
                         style={styles.creatorName}
                       >
                         tioorochitwitch
@@ -266,16 +266,14 @@ export const Home = () => {
                       Português
                     </Text>
                   </View>
-                  <View>
-                    <TouchableOpacity>
+                  <TouchableOpacity>
                     <Entypo 
                       name="dots-three-vertical"
                       size={18}
                       color="black"
                       style={styles.verticalDots}
                     />
-                    </TouchableOpacity>
-                  </View>
+                  </TouchableOpacity>
                 </View>
               </TouchableOpacity>
               <TouchableOpacity activeOpacity={0.7}>
@@ -300,6 +298,7 @@ export const Home = () => {
                         source={{uri: 'https://static-cdn.jtvnw.net/jtv_user_pictures/f4b12683-57ff-4b57-926a-67512b43a7ff-profile_image-50x50.png'}}
                       />
                       <Text 
+                        numberOfLines={1}
                         style={styles.creatorName}
                       >
                         Gaules
@@ -324,16 +323,14 @@ export const Home = () => {
                       Português
                     </Text>
                   </View>
-                  <View>
-                    <TouchableOpacity>
+                  <TouchableOpacity>
                     <Entypo 
                       name="dots-three-vertical"
                       size={18}
                       color="black"
                       style={styles.verticalDots}
                     />
-                    </TouchableOpacity>
-                  </View>
+                  </TouchableOpacity>
                 </View>
               </TouchableOpacity>
               <TouchableOpacity activeOpacity={0.7}>
@@ -359,6 +356,7 @@ export const Home = () => {
                       />
                       
                       <Text 
+                        numberOfLines={1}
                         style={styles.creatorName}
                       >
                         jukes
@@ -383,16 +381,14 @@ export const Home = () => {
                       Português
                     </Text>
                   </View>
-                  <View>
-                    <TouchableOpacity>
+                  <TouchableOpacity>
                     <Entypo 
                       name="dots-three-vertical"
                       size={18}
                       color="black"
                       style={styles.verticalDots}
                     />
-                    </TouchableOpacity>
-                  </View>
+                  </TouchableOpacity>
                 </View>
               </TouchableOpacity>
           </View>
