@@ -180,13 +180,13 @@ export const Home = () => {
                     <View style={styles.alignNameIcon}>
                       <Image 
                         style={styles.smallIcon}
-                        source={{uri: 'https://static-cdn.jtvnw.net/jtv_user_pictures/d96bbd7a-26e5-4c5e-b6a5-149d708a973b-profile_image-70x70.png'}}
+                        source={{uri: 'https://avatars.githubusercontent.com/u/82114311?v=4'}}
                       />
                       <Text 
                         numberOfLines={1}
                         style={styles.creatorName}
                       >
-                        PaulinhoLOKObr
+                        FredHSQ
                       </Text>
                     </View>
                     <Text
@@ -406,6 +406,24 @@ export const Home = () => {
                   <View>
                     <Text style={styles.favoriteName}>RatoBorrachudo</Text>
                     <Text style={styles.favoriteQuantity}>8 new videos</Text>
+                  </View>
+                </View>
+                <MaterialIcons
+                  name='circle'
+                  color={'#c9c8d1'}
+                />
+              </View>
+            </TouchableOpacity>
+            <TouchableOpacity activeOpacity={0.5}>
+              <View style={styles.favoriteBox}>
+                <View style={styles.favoriteInfo}>
+                  <Image
+                    style={styles.favoriteIcon}
+                    source={{uri: 'https://avatars.githubusercontent.com/u/82114311?v=4'}}
+                  />
+                  <View>
+                    <Text style={styles.favoriteName}>FredHSQ</Text>
+                    <Text style={styles.favoriteQuantity}>5 new videos</Text>
                   </View>
                 </View>
                 <MaterialIcons
