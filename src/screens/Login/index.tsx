@@ -1,7 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { Text, TextInput, View, Image, TouchableOpacity, NativeSyntheticEvent, TextInputChangeEventData  } from 'react-native';
-import  EyeIcon  from '../../assets/eye.png'
 import { Feather } from '@expo/vector-icons'; 
 import { styles } from './styles';
 import { MaterialIcons } from '@expo/vector-icons';
