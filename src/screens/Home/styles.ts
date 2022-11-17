@@ -47,7 +47,8 @@ export const styles = StyleSheet.create({
     },
     followedImage: {
         width: 94,
-        height: 130
+        height: 130,
+        backgroundColor: "#9147ff"
     },
     followedText:{
         fontSize: 14,
@@ -76,7 +77,8 @@ export const styles = StyleSheet.create({
     videoThumb:{
         width: 120,
         height: 70,
-        marginRight: 20
+        marginRight: 20,
+        backgroundColor:"#9147ff"
     },
     countBoxLive: {
         flexDirection: 'row',
